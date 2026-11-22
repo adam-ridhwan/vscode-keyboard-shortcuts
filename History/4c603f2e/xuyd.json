@@ -1,8 +1,0 @@
-{
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "editor.fontFamily": "sf mono",
-    "chat.editor.fontSize": 14,
-    "window.zoomLevel": 0.5
-
-}
