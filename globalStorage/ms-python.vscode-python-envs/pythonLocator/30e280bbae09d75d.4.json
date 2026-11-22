@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "executable": "/opt/homebrew/opt/python@3.13/bin/python3.13",
+    "prefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
+    "version": "3.13.12.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/opt/homebrew/bin/python3.13",
+      "/opt/homebrew/opt/python@3.13/bin/python3.13"
+    ]
+  },
+  "symlinks": [
+    [
+      "/opt/homebrew/bin/python3.13",
+      {
+        "secs_since_epoch": 1770742775,
+        "nanos_since_epoch": 173050092
+      },
+      {
+        "secs_since_epoch": 1770742775,
+        "nanos_since_epoch": 140127898
+      }
+    ],
+    [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      {
+        "secs_since_epoch": 1770742775,
+        "nanos_since_epoch": 173050092
+      },
+      {
+        "secs_since_epoch": 1770742775,
+        "nanos_since_epoch": 140127898
+      }
+    ]
+  ]
+}

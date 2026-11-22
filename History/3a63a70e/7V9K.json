@@ -1,0 +1,447 @@
+[
+  {
+    "key": "shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-markdown.editor.copyLinesUp",
+    "when": "markdownEditorFocus && activeCustomEditorId == 'vscode.markdown.editor'",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-notebook.cell.copyUp",
+    "when": "notebookEditorFocused && !inputFocus",
+  },
+  {
+    "key": "alt+up",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "ctrl+shift+cmd+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-markdown.editor.copyLinesDown",
+    "when": "markdownEditorFocus && activeCustomEditorId == 'vscode.markdown.editor'",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-notebook.cell.copyDown",
+    "when": "notebookEditorFocused && !inputFocus",
+  },
+  {
+    "key": "alt+down",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "ctrl+shift+cmd+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "cmd+d",
+    "command": "-workbench.action.browser.toggleFavorite",
+    "when": "browserHasUrl && activeEditor == 'workbench.editor.browser'",
+  },
+  {
+    "key": "cmd+d",
+    "command": "-notebook.addFindMatchToSelection",
+    "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'",
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus",
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.gotoLine",
+  },
+  {
+    "key": "ctrl+g",
+    "command": "editor.action.addSelectionToNextFindMatch",
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active",
+  },
+  {
+    "key": "cmd+k cmd+d",
+    "command": "-editor.action.moveSelectionToNextFindMatch",
+    "when": "editorFocus",
+  },
+  {
+    "key": "ctrl+cmd+9",
+    "command": "-workbench.action.moveEditorToLastGroup",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "markdown.editor.moveLinesUp",
+    "when": "markdownEditorFocus && activeCustomEditorId == 'vscode.markdown.editor'",
+  },
+  {
+    "key": "alt+up",
+    "command": "-markdown.editor.moveLinesUp",
+    "when": "markdownEditorFocus && activeCustomEditorId == 'vscode.markdown.editor'",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "notebook.cell.moveUp",
+    "when": "notebookEditorFocused && !inputFocus",
+  },
+  {
+    "key": "alt+up",
+    "command": "-notebook.cell.moveUp",
+    "when": "notebookEditorFocused && !inputFocus",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.pageUpHover",
+    "when": "editorHoverFocused",
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.pageUpHover",
+    "when": "editorHoverFocused",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "workbench.action.terminal.accessibleBufferGoToPreviousCommand",
+    "when": "accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'",
+  },
+  {
+    "key": "alt+up",
+    "command": "-workbench.action.terminal.accessibleBufferGoToPreviousCommand",
+    "when": "accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "workbench.action.terminal.sendSequence",
+    "when": "terminalFocus",
+    "args": {
+      "text": "\u001b[1;5A",
+    },
+  },
+  {
+    "key": "alt+up",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "terminalFocus",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "history.showPrevious",
+    "when": "historyNavigationBackwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible",
+  },
+  {
+    "key": "alt+up",
+    "command": "-history.showPrevious",
+    "when": "historyNavigationBackwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "list.focusAnyUp",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused",
+  },
+  {
+    "key": "alt+up",
+    "command": "-list.focusAnyUp",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "scm.forceViewPreviousCommit",
+    "when": "scmRepository",
+  },
+  {
+    "key": "alt+up",
+    "command": "-scm.forceViewPreviousCommit",
+    "when": "scmRepository",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "showPrevParameterHint",
+    "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible",
+  },
+  {
+    "key": "alt+up",
+    "command": "-showPrevParameterHint",
+    "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible",
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "workbench.action.navigateModalEditorPrevious",
+    "when": "editorPartModal && editorPartModalNavigation",
+  },
+  {
+    "key": "alt+up",
+    "command": "-workbench.action.navigateModalEditorPrevious",
+    "when": "editorPartModal && editorPartModalNavigation",
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "-bookmarks.shrinkSelection",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "markdown.editor.moveLinesDown",
+    "when": "markdownEditorFocus && activeCustomEditorId == 'vscode.markdown.editor'",
+  },
+  {
+    "key": "alt+down",
+    "command": "-markdown.editor.moveLinesDown",
+    "when": "markdownEditorFocus && activeCustomEditorId == 'vscode.markdown.editor'",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "notebook.cell.moveDown",
+    "when": "notebookEditorFocused && !inputFocus",
+  },
+  {
+    "key": "alt+down",
+    "command": "-notebook.cell.moveDown",
+    "when": "notebookEditorFocused && !inputFocus",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.pageDownHover",
+    "when": "editorHoverFocused",
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.pageDownHover",
+    "when": "editorHoverFocused",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "workbench.action.terminal.accessibleBufferGoToNextCommand",
+    "when": "accessibleViewIsShown && accessibleViewCurrentProviderId == 'terminal' || accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'",
+  },
+  {
+    "key": "alt+down",
+    "command": "-workbench.action.terminal.accessibleBufferGoToNextCommand",
+    "when": "accessibleViewIsShown && accessibleViewCurrentProviderId == 'terminal' || accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'",
+  },
+  {
+    "key": "alt+down",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "terminalFocus",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "history.showNext",
+    "when": "historyNavigationForwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible",
+  },
+  {
+    "key": "alt+down",
+    "command": "-history.showNext",
+    "when": "historyNavigationForwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "list.focusAnyDown",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused",
+  },
+  {
+    "key": "alt+down",
+    "command": "-list.focusAnyDown",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "scm.forceViewNextCommit",
+    "when": "scmRepository",
+  },
+  {
+    "key": "alt+down",
+    "command": "-scm.forceViewNextCommit",
+    "when": "scmRepository",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "showNextParameterHint",
+    "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible",
+  },
+  {
+    "key": "alt+down",
+    "command": "-showNextParameterHint",
+    "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible",
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "workbench.action.navigateModalEditorNext",
+    "when": "editorPartModal && editorPartModalNavigation",
+  },
+  {
+    "key": "alt+down",
+    "command": "-workbench.action.navigateModalEditorNext",
+    "when": "editorPartModal && editorPartModalNavigation",
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "editor.action.moveSelectionToPreviousFindMatch",
+  },
+  {
+    "key": "alt+cmd+-",
+    "command": "-peacock.darken",
+  },
+  {
+    "key": "alt+cmd+-",
+    "command": "editor.foldRecursively",
+    "when": "editorTextFocus && foldingEnabled",
+  },
+  {
+    "key": "cmd+k cmd+[",
+    "command": "-editor.foldRecursively",
+    "when": "editorTextFocus && foldingEnabled",
+  },
+  {
+    "key": "shift+alt+cmd+=",
+    "command": "editor.unfoldRecursively",
+    "when": "editorTextFocus && foldingEnabled",
+  },
+  {
+    "key": "cmd+k cmd+]",
+    "command": "-editor.unfoldRecursively",
+    "when": "editorTextFocus && foldingEnabled",
+  },
+  {
+    "key": "cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-markdown.editor.copyLinesDown",
+    "when": "false",
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled && !layoutMode",
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled && !layoutMode",
+  },
+  {
+    "key": "cmd+1",
+    "command": "-workbench.action.focusFirstEditorGroup",
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletFocus && !inputFocus",
+  },
+  {
+    "key": "cmd+e",
+    "command": "-actions.findWithSelection",
+  },
+  {
+    "key": "cmd+e",
+    "command": "-markdown.editor.toggleLocked",
+    "when": "markdownEditorFocus && activeCustomEditorId == 'vscode.markdown.editor'",
+  },
+  {
+    "key": "cmd+e",
+    "command": "-editor.action.toggleScreenReaderAccessibilityMode",
+    "when": "accessibilityHelpIsShown",
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.quickOpenPreviousEditor",
+  },
+  {
+    "key": "cmd+e",
+    "command": "-workbench.action.quickOpen",
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpen",
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "-workbench.action.browser.quickOpen",
+    "when": "activeEditor == 'workbench.editor.browser'",
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "-workbench.action.chat.focusQuestionCarousel",
+    "when": "chatHasQuestionCarousel && inChat",
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "-workbench.action.chat.focusConfirmation",
+    "when": "accessibilityModeEnabled && chatIsEnabled && !chatHasQuestionCarousel",
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "-workbench.action.openAgentsWindow",
+    "when": "chatHasCreatedSessionInAgentsWindow && config.chat.agent.enabled && !accessibilityModeEnabled && !chatSetupDisabledInWorkspace && !chatSetupHidden && !isAuxiliaryWindow && !isSessionsWindow",
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "-notification.acceptPrimaryAction",
+    "when": "accessibilityModeEnabled && notificationFocus || accessibilityModeEnabled && notificationToastsVisible",
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "workbench.action.showCommands",
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "-workbench.action.showCommands",
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen",
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen",
+  },
+]

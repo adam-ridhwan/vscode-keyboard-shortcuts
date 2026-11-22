@@ -1,0 +1,6 @@
+{
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "editor.fontSize": 14
+
+}

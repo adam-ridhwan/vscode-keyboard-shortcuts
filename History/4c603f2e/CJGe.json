@@ -1,0 +1,9 @@
+{
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "editor.fontFamily": "sf mono",
+    "window.zoomLevel": 0.5,
+    "workbench.layoutControl.enabled": false,
+    "chat.titleBar.openInAgentsWindow.enabled": false
+
+}
